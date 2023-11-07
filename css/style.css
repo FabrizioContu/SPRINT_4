@@ -1,54 +1,103 @@
 * {
-    padding: 1px;
-    margin: 5px;
-    box-sizing: border-box;
+  padding: 1px;
+  margin: 1px;
+  box-sizing: border-box;
 }
 
-.body{
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    padding: 15px;
-    background: url(../img/fondo1.jpg);
-    background-position: center;
-    background-attachment: contain;
-    background-size: cover;
-    display: flex;
-    flex-flow: column nowrap;
-    margin-left: 200px;
-    margin-right: 200px;
-    
+
+.body {
+  text-align: center;
+  padding: 15px;
+  display: flex;
+  flex-flow: column nowrap;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 150px;
 }
 .button {
-    background-color: aquamarine;
-    border: none;
-    color: white ;
-    border-radius: 5pc;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-right: 25px;
-    padding-left: 25px;;
-    cursor: pointer;
+  background-color: aquamarine;
+  border: none;
+  color: violet;
+  border-radius: 5pc;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 25px;
+  padding-left: 25px;
+  cursor: pointer;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-top: 15px;
 }
-.div{
-    border-radius: 0.5pc;
+.btn-punt {
+  border: none;
+  background: none;
 }
-h2{
-   
-    margin-top: 20px;
-    margin-bottom: 20px;
+h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+i {
+  cursor: pointer;
 }
 
-.joke{
-    margin-top: 20px;
-    margin-bottom: 20px;
+.joke {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 90px;
+  padding-right: 90px;
 }
 
-div{
-    height: 200px;
-    background: beige;
-    flex-flow: column nowrap;
-    margin-left: 150px;
-    margin-right: 150px;
-    margin-top: 180px;
+.div {
+  display: flex;
+  justify-content:start;
+  align-items: center;
+  height: 400px;
+  flex-flow: column nowrap;
+  margin-top: 150px;
+  margin-bottom: 100px;
+  border-radius: 0.5pc;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 50px;
+
+}
+.meteo {
+  align-self: baseline;
+}
+
+.magicpattern-1 {
+  margin-bottom: 50px;
+  margin-top: 10px;
+  flex-flow: column wrap;
+  justify-content: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-image: url(../svg/1.svg);
+}
+.magicpattern-2 {
+  margin-bottom: 50px;
+  margin-top: 10px;
+  flex-flow: column wrap;
+  justify-content: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-image: url(../svg/2.svg);
+
+}
+.magicpattern-3 {
+  margin-bottom: 50px;
+  margin-top: 10px;
+  flex-flow: column wrap;
+  justify-content: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-image: url(../svg/3.svg);
+}
+.temperature {
+  display: inline-block;
 }
